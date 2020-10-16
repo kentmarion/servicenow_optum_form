@@ -1,4 +1,5 @@
-print "Content-type: text/html\n\n";
+#!C:/Python/python.exe
+print("Content-Type: text/html\n")
 
 import cgi
 
@@ -10,7 +11,7 @@ short_descr = form.getvalue('short_description')
 descr = form.getvalue('description')
 
 #TESTING
-print assignment_group
-print caller
-print short_descr
-print descr
+print("Assignment Group: " + assignment_group +"<br>")
+print("Caller/Email: " + caller +"<br>")
+print("Short Description: " + short_descr +"<br>")
+print("Description: " + descr+"<br>")
