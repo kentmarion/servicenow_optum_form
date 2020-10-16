@@ -1,0 +1,29 @@
+<html>
+    <body>
+        <form name="input" action="test.py" method="POST">
+            <label>Assignment Group:</label><br>
+            <select name="assignment_group">
+                <option value="VMWare_Stability_Services">VMWare Stability</option>
+                <option value="VMWare_ESX_Services">VMWare ESX</option>
+                <option value="" disabled="true">VMWare Virtual Performance Services</option>
+                <option value="VMWare_Engineering_Services">VMWare Engineering Services</option>
+            </select><br><br>
+
+            <label>Email:</label><br>
+            <input type="text" name="caller">
+            <br><br>
+
+            <label>Short Description:</label><br>
+            <input type="text" name="short_description">
+            <br><br>
+
+            <label>Description:</label><br>
+            <textarea name="description">
+            </textarea>
+            <br><br>
+
+            <input type="submit" value="SUBMIT">
+        </form>
+
+    </body>
+</html>
